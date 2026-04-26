@@ -1,0 +1,18 @@
+module SRCCS
+exports all
+definitions
+functions
+
+-- Detect Train based on distance
+detectTrain: real -> bool
+detectTrain(distance) ==
+  distance < 500;  -- Yahan se 'return' hata dein
+
+-- Control Barrier based on train detection
+controlBarrier: bool -> seq of char
+controlBarrier(trainDetected) ==
+  if trainDetected = true
+  then "Closed"
+  else "Open";
+
+end SRCCS

@@ -1,0 +1,7 @@
+Verification Log
+
+R1 -> Verified using Z invariant
+R2 -> Verified using VDM function logic
+R4 -> Verified using Alloy safety constraint
+
+Result: All safety conditions satisfied

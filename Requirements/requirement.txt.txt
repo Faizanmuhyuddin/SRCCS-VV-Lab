@@ -1,0 +1,7 @@
+R1: If a train is detected within 500 meters, the barrier must close within 5 seconds.
+
+R2: Warning lights and alarms must activate at least 3 seconds before barrier closure.
+
+R3: The barrier must remain closed until the train has completely passed.
+
+R4: The system shall never allow a train to pass while the barrier is open.

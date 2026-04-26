@@ -1,0 +1,19 @@
+[STATE, BOOL]
+
+SRCCS_State
+
+-----------------------------
+
+state : {Idle, Approaching, Closed, Emergency}
+
+trainDetected : BOOL
+
+barrierStatus : {Open, Closed}
+
+-----------------------------
+
+Invariant
+
+-----------------------------
+
+trainDetected = TRUE ⇒ barrierStatus = Closed
