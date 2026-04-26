@@ -1,0 +1,25 @@
+# Smart Railway Crossing Control System (SRCCS)
+
+## Description
+This project implements formal verification of a railway crossing system using:
+- Z Specification
+- VDM (Overture)
+- Alloy Analyzer
+
+## Safety Requirement
+No train is allowed to pass while the barrier is open.
+
+## Tools Used
+- Community Z Tools
+- Overture (VDM)
+- Alloy Analyzer
+
+## Structure
+- requirements/
+- z-spec/
+- vdm/
+- alloy/
+- logs/
+
+## Author
+Faizan MuhyUddin
